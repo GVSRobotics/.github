@@ -46,7 +46,7 @@ See the full list of organization members on the [People page](https://github.co
 ## Contact us
 
 - Open an issue in the relevant repository for bugs, questions, or feature requests.
-- Email: [anupteejo@gmail.com](mailto:anupteejo@gmail.com), [danele.caradonna@gmail.com](mailto:danele.caradonna@gmail.com)
+- Email: [gvsrobotics@gmail.com](mailto:gvsrobotics@gmail.com) [anupteejo@gmail.com](mailto:anupteejo@gmail.com), [danele.caradonna@gmail.com](mailto:danele.caradonna@gmail.com)
 
 ---
 
