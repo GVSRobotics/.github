@@ -1,0 +1,154 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f9fc;
+  --surface: #ffffff;
+  --text: #162033;
+  --muted: #60708a;
+  --primary: #1f6feb;
+  --primary-dark: #174fb3;
+  --border: #dbe5f0;
+  --shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
+  color: #fff;
+  padding: 5rem 0 4rem;
+}
+
+.hero-content {
+  max-width: 760px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #cbd5e1;
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0 0 0.75rem;
+}
+
+.hero-text {
+  font-size: 1.05rem;
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: #fff;
+  color: var(--primary-dark);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.section {
+  padding: 3rem 0 0;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-intro,
+.section p,
+.feature-list {
+  color: var(--muted);
+}
+
+.feature-list {
+  padding-left: 1.2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.card p,
+.card a {
+  color: var(--muted);
+}
+
+.card a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 4rem;
+  }
+
+  .section {
+    padding-top: 2.25rem;
+  }
+}
