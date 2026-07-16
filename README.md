@@ -51,9 +51,11 @@ Alternatively, keep this repo and use its Pages URL (published at `https://gvsro
 
 ---
 
-If you'd like, I can:
+This repository's `README.md` is intentionally minimal. To update the organization profile shown at https://github.com/GVSRobotics, edit `profile/README.md` in this repository.
 
-- Move the current site files into a `GVSRobotics.github.io` repo for you (requires repo creation rights),
-- Or update the short descriptions for the listed repositories here.
+How to update the org profile quickly:
 
-Please tell me which option you prefer.
+1. Edit `profile/README.md` and commit the change to `main`.
+2. Push to GitHub — the organization page will display the updated content shortly.
+
+If you prefer, copy the longer profile text into `profile/README.md` so the org page shows the full information.

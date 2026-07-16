@@ -1,21 +1,59 @@
-## GVSRobotics — Welcome
+# GVSRobotics — Organization README
 
-This is the minimal organization profile README for the GVSRobotics GitHub page.
+This README is the organization-facing summary for the GVSRobotics GitHub profile. It provides a brief overview, quick links to public repositories, current work-in-progress notes, and contact information so visitors and potential contributors can quickly understand the org and get involved.
 
-Purpose
+**Overview**
 
-- Provide a short org overview and quick links for visitors.
+GVSRobotics brings together contributors interested in robotics simulation, control, and research software. We maintain open-source projects, example simulations, and reusable tooling to accelerate research and education.
 
-How to update
+**Public repositories (high-level)**
 
-1. Edit this file at `profile/README.md` in the `.github` repository.
-2. Commit your change to the `main` branch and push.
-3. The organization page will display the updated content shortly.
+- SoRoSim — Simulation tools and examples: https://github.com/GVSRobotics/SoRoSim
+- iDCOL — (description placeholder) https://github.com/GVSRobotics/iDCOL
+- ImplicitRouting — (description placeholder) https://github.com/GVSRobotics/ImplicitRouting
+- .github — Organization site and tooling: https://github.com/GVSRobotics/.github
 
-Quick checklist for a good profile
+If you'd like short descriptions or badges for each repo added here, open an issue or create a PR with the descriptions.
 
-- Keep the text short (2–6 paragraphs).
-- Add links to key repos and a contact method.
-- Use `CONTRIBUTING.md` in individual repos for contribution details.
+**Members & Owners**
 
-If you want, I can copy the fuller `README.md` content from the `.github` repo root here so the org page shows the same text. Tell me if you want that.
+Public member listings are currently not exposed by GitHub for this organization. If you are a maintainer and want to list team members publicly, enable public membership for individual accounts or create a CONTRIBUTORS file in each repo.
+
+**Work in progress**
+
+- Improve SoRoSim documentation and example notebooks
+- Add contribution templates and a clearer contribution guide across repos
+- Publish a single organization landing site (this repo) with an overview, projects, and contact
+
+**How to contribute**
+
+1. Find a repo from the list above.
+2. Open an issue to discuss ideas if needed.
+3. Create a branch, implement changes, and open a pull request.
+
+**Contact**
+
+Preferred contact channels:
+
+- Organization page: https://github.com/GVSRobotics
+- Open an issue in the relevant repository
+- Email: contact@gvsrobotics.org (replace or remove as desired)
+
+**Publishing the organization site**
+
+To host a full organization website at `https://gvsrobotics.github.io`:
+
+1. Create a new repository called `GVSRobotics.github.io` in the GVSRobotics organization.
+2. Copy the site files from this repo into the new repository root.
+3. Enable GitHub Pages (Settings → Pages) and select `main`/`/ (root)` as the source.
+
+Alternatively, keep this repo and use its Pages URL (published at `https://gvsrobotics.github.io/.github`).
+
+---
+
+If you'd like, I can:
+
+- Move the current site files into a `GVSRobotics.github.io` repo for you (requires repo creation rights),
+- Or update the short descriptions for the listed repositories here.
+
+Please tell me which option you prefer.
