@@ -12,7 +12,7 @@ Research group building open-source software for soft and hybrid soft-rigid robo
 <br/><b>SoRoSim</b>
 </a>
 <br/>A MATLAB Toolbox for Hybrid Soft-Rigid Robots
-<br/><sub>`MATLAB` · ⭐ 89</sub>
+<br/><sub>`MATLAB`</sub>
 </td>
 <td align="center" width="33%" valign="top">
 <a href="https://github.com/GVSRobotics/iDCOL">
@@ -20,7 +20,7 @@ Research group building open-source software for soft and hybrid soft-rigid robo
 <br/><b>iDCOL</b>
 </a>
 <br/>Implicit Differentiable Collision Detection
-<br/><sub>`C++` · ⭐ 6</sub>
+<br/><sub>`C++`</sub>
 </td>
 <td align="center" width="33%" valign="top">
 <a href="https://github.com/GVSRobotics/ImplicitRouting">
@@ -33,9 +33,9 @@ Research group building open-source software for soft and hybrid soft-rigid robo
 </tr>
 </table>
 
-## Ongoing work
+## Ongoing work (stay tuned)
 
-- SoRoSim++ (stay tuned)
+- SoRoSim++
 - Motion Planning
 - hDLO Manipulation
 
@@ -46,8 +46,7 @@ See the full list of organization members on the [People page](https://github.co
 ## Contact us
 
 - Open an issue in the relevant repository for bugs, questions, or feature requests.
-- Email: [anupteejo@gmail.com](mailto:anupteejo@gmail.com)
+- Email: [anupteejo@gmail.com](mailto:anupteejo@gmail.com), [danele.caradonna@gmail.com](mailto:danele.caradonna@gmail.com)
 
 ---
 
-*To update this page, edit `profile/README.md` in the `.github` repo and push to `main`.*
