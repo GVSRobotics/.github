@@ -11,7 +11,6 @@ GVSRobotics brings together contributors interested in robotics simulation, cont
 - SoRoSim — Simulation tools and examples: https://github.com/GVSRobotics/SoRoSim
 - iDCOL — (description placeholder) https://github.com/GVSRobotics/iDCOL
 - ImplicitRouting — (description placeholder) https://github.com/GVSRobotics/ImplicitRouting
-- .github — Organization site and tooling: https://github.com/GVSRobotics/.github
 
 If you'd like short descriptions or badges for each repo added here, open an issue or create a PR with the descriptions.
 
@@ -57,3 +56,39 @@ If you'd like, I can:
 - Or update the short descriptions for the listed repositories here.
 
 Please tell me which option you prefer.
+
+---
+
+## Public repositories
+
+Below are the public repositories with a short description and a preview image. If a repository includes its own project image in the README, the image may appear here; otherwise a generated repo card is shown.
+
+### SoRoSim
+[![SoRoSim](https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim)](https://github.com/GVSRobotics/SoRoSim)
+
+Simulation tools and examples. Visit the repo: https://github.com/GVSRobotics/SoRoSim
+
+---
+
+### iDCOL
+[![iDCOL](https://opengraph.githubassets.com/1/GVSRobotics/iDCOL)](https://github.com/GVSRobotics/iDCOL)
+
+Project repository (description placeholder). Visit the repo: https://github.com/GVSRobotics/iDCOL
+
+---
+
+### ImplicitRouting
+[![ImplicitRouting](https://opengraph.githubassets.com/1/GVSRobotics/ImplicitRouting)](https://github.com/GVSRobotics/ImplicitRouting)
+
+Project repository (description placeholder). Visit the repo: https://github.com/GVSRobotics/ImplicitRouting
+
+---
+
+### .github
+[![.github](https://opengraph.githubassets.com/1/GVSRobotics/.github)](https://github.com/GVSRobotics/.github)
+
+Organization site and tooling. Visit the repo: https://github.com/GVSRobotics/.github
+
+---
+
+If you want these blocks generated automatically from live repo data (descriptions and README images), I can run a script to fetch and regenerate this file.
