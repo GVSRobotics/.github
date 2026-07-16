@@ -6,46 +6,38 @@ Research group building open-source software for soft and hybrid soft-rigid robo
 
 <table>
 <tr>
-<td width="320" valign="top">
-<a href="https://github.com/GVSRobotics/SoRoSim"><img src="https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim" width="300" alt="SoRoSim"/></a>
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/GVSRobotics/SoRoSim">
+<img src="https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim" width="100%" alt="SoRoSim"/>
+<br/><b>SoRoSim</b>
+</a>
+<br/>A MATLAB Toolbox for Hybrid Soft-Rigid Robots
+<br/><sub>`MATLAB` · ⭐ 89</sub>
 </td>
-<td valign="top">
-
-**[SoRoSim](https://github.com/GVSRobotics/SoRoSim)**
-A MATLAB Toolbox for Hybrid Soft-Rigid Robots
-
-`MATLAB` · ⭐ 89
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/GVSRobotics/iDCOL">
+<img src="https://opengraph.githubassets.com/1/GVSRobotics/iDCOL" width="100%" alt="iDCOL"/>
+<br/><b>iDCOL</b>
+</a>
+<br/>Implicit Differentiable Collision Detection
+<br/><sub>`C++` · ⭐ 6</sub>
 </td>
-</tr>
-<tr>
-<td width="320" valign="top">
-<a href="https://github.com/GVSRobotics/iDCOL"><img src="https://raw.githubusercontent.com/GVSRobotics/iDCOL/main/idcol.png" width="300" alt="iDCOL"/></a>
-</td>
-<td valign="top">
-
-**[iDCOL](https://github.com/GVSRobotics/iDCOL)**
-Implicit Differentiable Collision Detection
-
-`C++` · ⭐ 6
-</td>
-</tr>
-<tr>
-<td width="320" valign="top">
-<a href="https://github.com/GVSRobotics/ImplicitRouting"><img src="https://raw.githubusercontent.com/GVSRobotics/ImplicitRouting/main/irouting.png" width="300" alt="ImplicitRouting"/></a>
-</td>
-<td valign="top">
-
-**[ImplicitRouting](https://github.com/GVSRobotics/ImplicitRouting)**
-A Differentiable Framework for Hollow Tendon-Driven Continuum Robots with Implicit Internal Routing
-
-`MATLAB`
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/GVSRobotics/ImplicitRouting">
+<img src="https://opengraph.githubassets.com/1/GVSRobotics/ImplicitRouting" width="100%" alt="ImplicitRouting"/>
+<br/><b>ImplicitRouting</b>
+</a>
+<br/>A Differentiable Framework for Hollow Tendon-Driven Continuum Robots with Implicit Internal Routing
+<br/><sub>`MATLAB`</sub>
 </td>
 </tr>
 </table>
 
 ## Ongoing work
 
-All three projects above are under active development, with commits and updates landing regularly. Check each repo's Issues and commit history for the current focus.
+- SoRoSim++ (stay tuned)
+- Motion Planning
+- hDLO Manipulation
 
 ## Owners & members
 
