@@ -1,42 +1,61 @@
-# GVSRobotics — Projects
+# GVSRobotics
 
-This page highlights public repositories under the GVSRobotics organization.
+Research group building open-source software for soft and hybrid soft-rigid robotics: simulation, collision detection, and continuum-robot design tools.
 
-<table><tbody>
+## Public repositories
+
+<table>
 <tr>
-<td style="vertical-align:top; width:50%; padding:8px"><div style="padding:6px">
-<a href="https://github.com/GVSRobotics/SoRoSim"><img src="https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim" alt="SoRoSim" style="width:100%;height:160px;object-fit:cover;border:1px solid #e1e4e8;border-radius:6px;display:block;"/></a>
-<p style="margin:8px 0 4px 0"><strong><a href="https://github.com/GVSRobotics/SoRoSim">SoRoSim</a></strong><br/>
-SoRoSim: A MATLAB Toolbox for Hybrid Soft-Rigid Robots<br/>
-<span style="color:#6a737d;font-size:0.9em">`MATLAB` • ⭐ 89</span>
-</p>
-</div></td>
-<td style="vertical-align:top; width:50%; padding:8px"><div style="padding:6px">
-<a href="https://github.com/GVSRobotics/iDCOL"><img src="https://raw.githubusercontent.com/GVSRobotics/iDCOL/main/idcol.png" alt="iDCOL" style="width:100%;height:160px;object-fit:cover;border:1px solid #e1e4e8;border-radius:6px;display:block;"/></a>
-<p style="margin:8px 0 4px 0"><strong><a href="https://github.com/GVSRobotics/iDCOL">iDCOL</a></strong><br/>
-Implicit Differentiable Collision Detection<br/>
-<span style="color:#6a737d;font-size:0.9em">`C++` • ⭐ 6</span>
-</p>
-</div></td>
+<td width="320" valign="top">
+<a href="https://github.com/GVSRobotics/SoRoSim"><img src="https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim" width="300" alt="SoRoSim"/></a>
+</td>
+<td valign="top">
+
+**[SoRoSim](https://github.com/GVSRobotics/SoRoSim)**
+A MATLAB Toolbox for Hybrid Soft-Rigid Robots
+
+`MATLAB` · ⭐ 89
+</td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:50%; padding:8px"><div style="padding:6px">
-<a href="https://github.com/GVSRobotics/ImplicitRouting"><img src="https://raw.githubusercontent.com/GVSRobotics/ImplicitRouting/main/irouting.png" alt="ImplicitRouting" style="width:100%;height:160px;object-fit:cover;border:1px solid #e1e4e8;border-radius:6px;display:block;"/></a>
-<p style="margin:8px 0 4px 0"><strong><a href="https://github.com/GVSRobotics/ImplicitRouting">ImplicitRouting</a></strong><br/>
-Codes for Differentiable Framework for Hollow Tendon-Driven Continuum Robots with Implicit Internal Routing<br/>
-<span style="color:#6a737d;font-size:0.9em">`MATLAB`</span>
-</p>
-</div></td>
-<td style="vertical-align:top; width:50%; padding:8px"><div style="padding:6px">
-<a href="https://github.com/GVSRobotics/.github"><img src="https://opengraph.githubassets.com/1/GVSRobotics/.github" alt=".github" style="width:100%;height:160px;object-fit:cover;border:1px solid #e1e4e8;border-radius:6px;display:block;"/></a>
-<p style="margin:8px 0 4px 0"><strong><a href="https://github.com/GVSRobotics/.github">.github</a></strong><br/>
-<span style="color:#6a737d;font-size:0.9em">`Python`</span>
-</p>
-</div></td>
+<td width="320" valign="top">
+<a href="https://github.com/GVSRobotics/iDCOL"><img src="https://raw.githubusercontent.com/GVSRobotics/iDCOL/main/idcol.png" width="300" alt="iDCOL"/></a>
+</td>
+<td valign="top">
+
+**[iDCOL](https://github.com/GVSRobotics/iDCOL)**
+Implicit Differentiable Collision Detection
+
+`C++` · ⭐ 6
+</td>
 </tr>
-</tbody></table>
+<tr>
+<td width="320" valign="top">
+<a href="https://github.com/GVSRobotics/ImplicitRouting"><img src="https://raw.githubusercontent.com/GVSRobotics/ImplicitRouting/main/irouting.png" width="300" alt="ImplicitRouting"/></a>
+</td>
+<td valign="top">
 
+**[ImplicitRouting](https://github.com/GVSRobotics/ImplicitRouting)**
+A Differentiable Framework for Hollow Tendon-Driven Continuum Robots with Implicit Internal Routing
 
-**How to update**
+`MATLAB`
+</td>
+</tr>
+</table>
 
-Edit `profile/README.md` in the `.github` repo and push to `main`. The org page will reflect changes shortly.
+## Ongoing work
+
+All three projects above are under active development, with commits and updates landing regularly. Check each repo's Issues and commit history for the current focus.
+
+## Owners & members
+
+See the full list of organization members on the [People page](https://github.com/orgs/GVSRobotics/people).
+
+## Contact us
+
+- Open an issue in the relevant repository for bugs, questions, or feature requests.
+- Email: [anupteejo@gmail.com](mailto:anupteejo@gmail.com)
+
+---
+
+*To update this page, edit `profile/README.md` in the `.github` repo and push to `main`.*
