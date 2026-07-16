@@ -1,83 +1,38 @@
-# GVSRobotics — Organization README
+# GVSRobotics — Projects
 
-This README is the organization-facing summary for the GVSRobotics GitHub profile. It provides a brief overview, quick links to public repositories, current work-in-progress notes, and contact information so visitors and potential contributors can quickly understand the org and get involved.
+This page highlights public repositories under the GVSRobotics organization.
 
-**Overview**
+### [SoRoSim](https://github.com/GVSRobotics/SoRoSim)
 
-GVSRobotics brings together contributors interested in robotics simulation, control, and research software. We maintain open-source projects, example simulations, and reusable tooling to accelerate research and education.
+![SoRoSim](https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim)
 
-<!-- Public repositories (high-level) removed. See detailed blocks below. -->
-
-**Members & Owners**
-
-Public member listings are currently not exposed by GitHub for this organization. If you are a maintainer and want to list team members publicly, enable public membership for individual accounts or create a CONTRIBUTORS file in each repo.
-
-**Work in progress**
-
-- Improve SoRoSim documentation and example notebooks
-- Add contribution templates and a clearer contribution guide across repos
-- Publish a single organization landing site (this repo) with an overview, projects, and contact
-
-**How to contribute**
-
-1. Find a repo from the list above.
-2. Open an issue to discuss ideas if needed.
-3. Create a branch, implement changes, and open a pull request.
-
-**Contact**
-
-Preferred contact channels:
-
-- Organization page: https://github.com/GVSRobotics
-- Open an issue in the relevant repository
-- Email: contact@gvsrobotics.org (replace or remove as desired)
-
-**Publishing the organization site**
-
-To host a full organization website at `https://gvsrobotics.github.io`:
-
-1. Create a new repository called `GVSRobotics.github.io` in the GVSRobotics organization.
-2. Copy the site files from this repo into the new repository root.
-3. Enable GitHub Pages (Settings → Pages) and select `main`/`/ (root)` as the source.
-
-Alternatively, keep this repo and use its Pages URL (published at `https://gvsrobotics.github.io/.github`).
+SoRoSim: A MATLAB Toolbox for Hybrid Soft-Rigid Robots
 
 ---
 
-If you'd like, I can:
+### [iDCOL](https://github.com/GVSRobotics/iDCOL)
 
-- Move the current site files into a `GVSRobotics.github.io` repo for you (requires repo creation rights),
-- Or update the short descriptions for the listed repositories here.
+![iDCOL](https://raw.githubusercontent.com/GVSRobotics/iDCOL/main/idcol.png)
 
-Please tell me which option you prefer.
-
----
-
-## Public repositories
-
-Below are the public repositories with a short description and a preview image. If a repository includes its own project image in the README, the image may appear here; otherwise a generated repo card is shown.
-
-### SoRoSim
-[![SoRoSim](https://opengraph.githubassets.com/1/GVSRobotics/SoRoSim)](https://github.com/GVSRobotics/SoRoSim)
-
-Simulation tools and examples. Visit the repo: https://github.com/GVSRobotics/SoRoSim
+Implicit Differentiable Collision Detection
 
 ---
 
-### iDCOL
-[![iDCOL](https://opengraph.githubassets.com/1/GVSRobotics/iDCOL)](https://github.com/GVSRobotics/iDCOL)
+### [ImplicitRouting](https://github.com/GVSRobotics/ImplicitRouting)
 
-Project repository (description placeholder). Visit the repo: https://github.com/GVSRobotics/iDCOL
+![ImplicitRouting](https://raw.githubusercontent.com/GVSRobotics/ImplicitRouting/main/irouting.png)
 
----
-
-### ImplicitRouting
-[![ImplicitRouting](https://opengraph.githubassets.com/1/GVSRobotics/ImplicitRouting)](https://github.com/GVSRobotics/ImplicitRouting)
-
-Project repository (description placeholder). Visit the repo: https://github.com/GVSRobotics/ImplicitRouting
+Codes for Differentiable Framework for Hollow Tendon-Driven Continuum Robots with Implicit Internal Routing
 
 ---
 
-<!-- .github block intentionally removed from public listing -->
+### [.github](https://github.com/GVSRobotics/.github)
 
-If you want these blocks generated automatically from live repo data (descriptions and README images), I can run a script to fetch and regenerate this file.
+![.github](https://opengraph.githubassets.com/1/GVSRobotics/.github)
+
+---
+
+
+**How to update**
+
+Edit `profile/README.md` in the `.github` repo and push to `main`. The org page will reflect changes shortly.
