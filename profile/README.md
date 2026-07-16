@@ -6,13 +6,7 @@ This README is the organization-facing summary for the GVSRobotics GitHub profil
 
 GVSRobotics brings together contributors interested in robotics simulation, control, and research software. We maintain open-source projects, example simulations, and reusable tooling to accelerate research and education.
 
-**Public repositories (high-level)**
-
-- SoRoSim — Simulation tools and examples: https://github.com/GVSRobotics/SoRoSim
-- iDCOL — (description placeholder) https://github.com/GVSRobotics/iDCOL
-- ImplicitRouting — (description placeholder) https://github.com/GVSRobotics/ImplicitRouting
-
-If you'd like short descriptions or badges for each repo added here, open an issue or create a PR with the descriptions.
+<!-- Public repositories (high-level) removed. See detailed blocks below. -->
 
 **Members & Owners**
 
@@ -84,11 +78,6 @@ Project repository (description placeholder). Visit the repo: https://github.com
 
 ---
 
-### .github
-[![.github](https://opengraph.githubassets.com/1/GVSRobotics/.github)](https://github.com/GVSRobotics/.github)
-
-Organization site and tooling. Visit the repo: https://github.com/GVSRobotics/.github
-
----
+<!-- .github block intentionally removed from public listing -->
 
 If you want these blocks generated automatically from live repo data (descriptions and README images), I can run a script to fetch and regenerate this file.
