@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "idcol",
+    "name": "iDCOL",
+    "language": "C++",
+    "accent": "#c8ff3d",
+    "shortDescription": "Implicit differentiable collision detection for strictly convex contact geometry.",
+    "kicker": "Analytical contact kinematics for gradient-based robotics.",
+    "description": "iDCOL is a differentiable contact kinematic framework for strictly convex contact geometry, designed for gradient-based simulation, planning, and optimization in contact-rich robotic systems.",
+    "body": "At its core, iDCOL reduces contact computation to a fixed-size nonlinear solve, making it fast, differentiable, and easy to integrate into physics engines and optimizers.",
+    "features": [
+      "Robust collision detection for strictly convex implicit shapes",
+      "Analytical derivatives of contact kinematics",
+      "Efficient warm-started contact tracking",
+      "A lightweight C++ API suitable for physics engines and optimizers"
+    ],
+    "links": [
+      {"label": "GitHub repository", "url": "https://github.com/GVSRobotics/iDCOL"},
+      {"label": "Paper", "url": "https://github.com/GVSRobotics/iDCOL#readme"}
+    ],
+    "facts": [
+      {"label": "Domain", "value": "Contact geometry"},
+      {"label": "Core", "value": "Nonlinear solve"},
+      {"label": "Interface", "value": "Lightweight C++"}
+    ]
+  },
+  {
+    "slug": "implicit-routing",
+    "name": "Implicit Routing",
+    "language": "MATLAB",
+    "accent": "#8aa4ff",
+    "shortDescription": "Differentiable simulation of soft continuum manipulators with implicit internal cable routing.",
+    "kicker": "Let the cable path emerge from equilibrium.",
+    "description": "Built on the SoRoSim toolbox, Implicit Routing simulates soft continuum manipulators whose internal cable paths are solved implicitly rather than prescribed.",
+    "body": "Given cable entry and exit ports, the routing is solved as part of the manipulator's static equilibrium. The complete pipeline is differentiable end-to-end, with analytical Jacobians throughout.",
+    "features": [
+      "Implicit cable routing through deformable manipulators",
+      "Static equilibrium coupling between robot shape and cable path",
+      "End-to-end differentiability with analytical Jacobians",
+      "Built on the SoRoSim soft robotics simulator"
+    ],
+    "links": [
+      {"label": "GitHub repository", "url": "https://github.com/GVSRobotics/ImplicitRouting"},
+      {"label": "SoRoSim", "url": "https://github.com/GVSRobotics/SoRoSim"}
+    ],
+    "facts": [
+      {"label": "Platform", "value": "SoRoSim"},
+      {"label": "Method", "value": "Implicit routing"},
+      {"label": "Derivatives", "value": "Analytical"}
+    ]
+  }
+]

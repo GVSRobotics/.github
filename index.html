@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GVS Robotics develops open-source tools for soft and hybrid robotics, differentiable simulation, contact, and planning.">
+  <title>GVS Robotics | Open-source robotics research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="GVS Robotics home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>GVS Robotics</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a class="nav-cta" href="https://github.com/GVSRobotics">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Open-source robotics research</p>
+        <h1>Geometry, mechanics, and intelligence for robots that interact with the world.</h1>
+        <p class="hero-lede">We build computational tools for soft and hybrid robotics—spanning differentiable contact, continuum mechanics, simulation, and planning.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects</a>
+          <a class="button secondary" href="https://github.com/GVSRobotics">View organization ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="grid-plane"></div>
+        <svg viewBox="0 0 500 500" role="presentation">
+          <path class="arm" d="M76 385 C120 298, 167 330, 205 241 S295 164, 423 95"/>
+          <path class="arm arm-ghost" d="M76 385 C160 371, 142 263, 222 266 S302 147, 423 95"/>
+          <g class="nodes">
+            <circle cx="76" cy="385" r="11"/><circle cx="138" cy="318" r="8"/>
+            <circle cx="205" cy="241" r="9"/><circle cx="293" cy="173" r="8"/>
+            <circle cx="423" cy="95" r="12"/>
+          </g>
+        </svg>
+        <span class="visual-label label-a">DIFFERENTIABLE</span>
+        <span class="visual-label label-b">CONTACT</span>
+        <span class="visual-label label-c">CONTINUUM</span>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Research areas">
+      <div>SOFT ROBOTICS <span>•</span> CONTACT GEOMETRY <span>•</span> DIFFERENTIABLE SIMULATION <span>•</span> MOTION PLANNING <span>•</span> CONTINUUM MECHANICS</div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects</h2>
+        </div>
+        <p>Research software designed to move from mathematical formulation to practical integration.</p>
+      </div>
+      <div id="project-grid" class="project-grid" aria-live="polite"></div>
+      <noscript><p>Please enable JavaScript to view the project cards.</p></noscript>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="research-card reveal">
+        <p class="eyebrow">Our approach</p>
+        <h2>Analytical structure.<br>Practical software.</h2>
+        <p>We focus on formulations that preserve physical meaning while exposing the derivatives, speed, and robustness needed by modern optimizers and learning systems.</p>
+        <div class="pill-row"><span>Open source</span><span>Research-grade</span><span>Integration-ready</span></div>
+      </div>
+      <div class="principles reveal">
+        <article><span>01</span><h3>Mechanics first</h3><p>Models grounded in geometry, kinematics, and continuum mechanics.</p></article>
+        <article><span>02</span><h3>Differentiable by design</h3><p>Analytical derivatives for simulation, planning, and optimization.</p></article>
+        <article><span>03</span><h3>Built to be used</h3><p>Clear APIs, reproducible examples, and open implementations.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>GVS Robotics</strong><p>Open-source tools for the next generation of robotic systems.</p></div>
+    <div class="footer-links"><a href="https://github.com/GVSRobotics">GitHub</a><a href="mailto:gvsrobotics@gmail.com">Email</a></div>
+    <p class="copyright">© <span id="year"></span> GVS Robotics</p>
+  </footer>
+</body>
+</html>
