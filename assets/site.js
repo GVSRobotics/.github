@@ -4,12 +4,12 @@ if (grid) {
     .then(r => { if (!r.ok) throw new Error('Could not load projects'); return r.json(); })
     .then(projects => {
       grid.innerHTML = projects.map((p, i) => `
-        <a class="project-card reveal" href="projects/${p.slug}/" style="--accent:${p.accent}">
+        <a class="project-card reveal" href="${p.links?.[0]?.url || `https://github.com/GVSRobotics/${p.slug}`}" target="_blank" rel="noopener noreferrer" style="--accent:${p.accent}">
           <div class="meta"><span>${String(i + 1).padStart(2, '0')}</span><span class="tag">${p.language}</span></div>
           <div class="project-art" aria-hidden="true"></div>
           <h3>${p.name}</h3>
           <p>${p.shortDescription}</p>
-          <span class="card-link">View project →</span>
+          <span class="card-link">Open repository →</span>
         </a>`).join('');
       reveal();
     })
