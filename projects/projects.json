@@ -3,7 +3,8 @@
     "slug": "idcol",
     "name": "iDCOL",
     "language": "C++",
-    "accent": "#c8ff3d",
+    "accent": "#2b59ff",
+    "cardHref": "projects/idcol/",
     "shortDescription": "Implicit differentiable collision detection for strictly convex contact geometry.",
     "kicker": "Analytical contact kinematics for gradient-based robotics.",
     "description": "iDCOL is a differentiable contact kinematic framework for strictly convex contact geometry, designed for gradient-based simulation, planning, and optimization in contact-rich robotic systems.",
@@ -29,6 +30,7 @@
     "name": "Implicit Routing",
     "language": "MATLAB",
     "accent": "#8aa4ff",
+    "cardHref": "https://github.com/GVSRobotics/ImplicitRouting",
     "shortDescription": "Differentiable simulation of soft continuum manipulators with implicit internal cable routing.",
     "kicker": "Let the cable path emerge from equilibrium.",
     "description": "Built on the SoRoSim toolbox, Implicit Routing simulates soft continuum manipulators whose internal cable paths are solved implicitly rather than prescribed.",
@@ -47,6 +49,31 @@
       {"label": "Platform", "value": "SoRoSim"},
       {"label": "Method", "value": "Implicit routing"},
       {"label": "Derivatives", "value": "Analytical"}
+    ]
+  },
+  {
+    "slug": "sorosim",
+    "name": "SoRoSim",
+    "language": "MATLAB",
+    "accent": "#c8ff3d",
+    "cardHref": "https://github.com/GVSRobotics/SoRoSim",
+    "shortDescription": "A MATLAB toolbox for the dynamic simulation of soft, rigid, and hybrid robots using the Geometric Variable Strain approach.",
+    "kicker": "One formulation for soft, rigid, and hybrid robots.",
+    "description": "SoRoSim simulates the dynamics of soft, rigid, and hybrid robots within a single geometrically exact, variable strain formulation.",
+    "body": "The Geometric Variable Strain (GVS) approach represents continuum, rigid, and hybrid bodies within one consistent kinematic and dynamic model, avoiding the ad-hoc coupling typically needed between soft and rigid solvers.",
+    "features": [
+      "Unified modeling of soft, rigid, and hybrid robots",
+      "Geometrically exact variable strain kinematics",
+      "MATLAB toolbox with example robots and actuation models",
+      "Foundation for downstream tools such as Implicit Routing"
+    ],
+    "links": [
+      {"label": "GitHub repository", "url": "https://github.com/GVSRobotics/SoRoSim"}
+    ],
+    "facts": [
+      {"label": "Formulation", "value": "Geometric variable strain"},
+      {"label": "Covers", "value": "Soft, rigid, hybrid"},
+      {"label": "Interface", "value": "MATLAB toolbox"}
     ]
   }
 ]
