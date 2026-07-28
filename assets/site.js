@@ -5,12 +5,14 @@ if (grid) {
     .then(projects => {
       grid.innerHTML = projects.map((p, i) => {
         const external = /^https?:\/\//.test(p.cardHref);
+        const isGithub = /^https?:\/\/github\.com\//.test(p.cardHref);
+        const label = isGithub ? 'View on GitHub →' : external ? 'Visit project site →' : 'View project →';
         return `
         <a class="project-card reveal" href="${p.cardHref}" ${external ? 'target="_blank" rel="noopener noreferrer"' : ''} style="--accent:${p.accent}">
           <div class="meta"><span class="tag">${p.language}</span><span>${String(i + 1).padStart(2, '0')}</span></div>
           <h3>${p.name}</h3>
           <p>${p.shortDescription}</p>
-          <span class="card-link">${external ? 'View on GitHub →' : 'View project →'}</span>
+          <span class="card-link">${label}</span>
         </a>`;
       }).join('');
       reveal();

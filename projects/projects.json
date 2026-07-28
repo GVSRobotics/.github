@@ -4,7 +4,7 @@
     "name": "iDCOL",
     "language": "C++",
     "accent": "#2b59ff",
-    "cardHref": "projects/idcol/",
+    "cardHref": "https://gvsrobotics.github.io/iDCOL/",
     "shortDescription": "Implicit differentiable collision detection for strictly convex contact geometry.",
     "kicker": "Analytical contact kinematics for gradient-based robotics.",
     "description": "iDCOL is a differentiable contact kinematic framework for strictly convex contact geometry, designed for gradient-based simulation, planning, and optimization in contact-rich robotic systems.",
